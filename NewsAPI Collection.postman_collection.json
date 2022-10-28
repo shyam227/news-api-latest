@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "921cb7a7-d53e-4198-bd2e-76349888862d",
+		"name": "NewsAPI Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetNewsArticlesByCount",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/newsapi/articles/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"newsapi",
+						"articles",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetArticlesBySearchKey",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GetArticlesByTitle",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
