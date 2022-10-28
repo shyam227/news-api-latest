@@ -7,6 +7,7 @@ How to start the project???
 > Tomcat should be starting on port number 8080 and application is deployed.
 
 Please test the below endpoints in Postman by using the example endpoints given.
+Please refer to NewsAPI Collection.postman_collection.json, import in Postman and test to check the results.
 
 #API - getArticlesByCount
 Description - This API will fetch N news articles where N is the input entered by the user in the path parameter.
